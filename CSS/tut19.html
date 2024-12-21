@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Shadow & Text Shadow</title>
+    <style>
+        .container{
+            display: flex;
+        }
+        .card{
+            padding: 20px;
+            margin: 20px;
+            border: 2px solid yellow;
+            /* box-shadow: 10px 15px green; */
+            /* box-shadow: -10px -15px green; */
+            /* box-shadow: 10px 15px 20px green; */
+            /* box-shadow: 5px 10px 15px 20px green; */
+            /* box-shadow: -5px -10px 15px 20px rgba(5, 10, 15, 20); */
+            box-shadow: inset 5px 10px green;
+
+        }
+        h1{
+            text-align: center;
+            /* text-shadow: 5px 10px green; */
+            text-shadow: 5px 10px 15px yellow;
+            /* text-shadow: -5px -10px blue; */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="card" id="card1">
+            <h1>C++</h1>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Error, veniam et, modi ratione nobis fugiat eaque ducimus enim reiciendis laboriosam officiis velit iusto animi mollitia. Aperiam voluptas fugit aspernatur velit corrupti ut. Modi quibusdam quam quae. Rem quia possimus rerum perspiciatis optio molestiae, autem quibusdam, repudiandae aut praesentium animi quidem.</p>
+        </div>
+        <div class="card" id="card2">
+            <h1>HTML</h1>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptates esse recusandae, iste accusamus vero suscipit exercitationem vitae dignissimos temporibus consequuntur, obcaecati eum culpa veritatis pariatur sit deleniti necessitatibus ratione earum, dolor cum distinctio vel molestias. Natus, recusandae aliquam voluptatem officiis quasi at doloremque error excepturi, illo vitae veritatis quis et.</p>
+        </div>
+        <div class="card" id="card3">
+            <h1>CSS</h1>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dignissimos beatae labore alias autem cupiditate ab ad vero iure fugit ducimus. Repellat accusamus distinctio aperiam. Voluptatum saepe sed error non praesentium maiores dicta cum illum, rerum possimus, voluptas placeat expedita rem facilis dolores! Animi aspernatur maxime sed quia distinctio minima facere?</p>
+        </div>
+        
+    </div>
+</body>
+</html>

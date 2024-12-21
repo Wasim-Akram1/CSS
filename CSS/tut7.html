@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Float & Clear</title>
+    <style>
+
+        *{
+            box-sizing: border-box;
+        }
+        .container{
+            border: 4px solid;
+            border-radius: 6px;
+            float: left;
+            background-color: rgb(18, 17, 15);
+        }
+
+        .item{
+            border: 2px solid;
+            border-radius: 4px;
+            margin: 6px;
+            padding: 5px;
+            text-align: justify;
+            background-color: wheat;
+        }
+        #Electronics{
+            float: left ;
+            width: 48%;
+            
+        }
+        #Clothes{
+            float: right;
+            width: 48%;
+        }
+        #Groceries{
+            clear: both;
+        }
+
+        h1{
+            color: red;
+        }
+        p{
+            color: rgb(10, 74, 10);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div id="Electronics" class="item">
+            <h1>Mobile Phones</h1>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquid ad, tempore quibusdam reprehenderit, error optio suscipit quam amet numquam magnam quisquam pariatur repudiandae, corrupti rem eveniet modi neque? Quisquam, error?</p>
+        </div>
+
+        <div id="Clothes" class="item">
+            <h1>Gucchi</h1>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquid ad, tempore quibusdam reprehenderit, error optio suscipit quam amet numquam magnam quisquam pariatur repudiandae, corrupti rem eveniet modi neque? Quisquam, error?</p>
+        </div>
+
+        <div id="Groceries" class="item">
+            <h1>Tomato</h1>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquid ad, tempore quibusdam reprehenderit, error optio suscipit quam amet numquam magnam quisquam pariatur repudiandae, corrupti rem eveniet modi neque? Quisquam, error?</p>
+        </div>
+    </div>
+</body>
+</html>

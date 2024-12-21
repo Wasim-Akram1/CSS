@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Attribute & nth chils Psudo Selector</title> 
+    <style>
+        input{
+            display: block;
+        }
+        input[type='text']{
+            color: red;
+        }
+        a[target]{
+            color: green;
+        }
+         li:nth-child(3){
+            color: blue;
+            background-color: ;
+        }
+        li:nth-child(even){
+            color: yellow;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1><a href="http://google.com" target="_blank">Google.com</a></h1>
+        <h1><a href="http://facebook.com" target="_blank">Facebook.com</a></h1>
+        <form action="" class="control">
+            <input type="text" placeholder="Enter your name">
+            <input type="email" placeholder="Enter your email">
+            <input type="password" placeholder="Enter your password">
+            <input type="submit" placeholder="Submit">
+        </form>
+        <ul>
+            <li>item1</li>
+            <li>item2</li>
+            <li>item3</li>
+            <li>item4</li>
+            <li>item5</li>
+            <li>item6</li>
+            <li>item7</li>
+            <li>item8</li>
+            <li>item9</li>
+            <li>item10</li>
+        </ul>
+    </div>
+</body>
+</html>
